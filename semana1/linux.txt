@@ -1,0 +1,48 @@
+Linux
+Wsl - versão Linux para ser utilizada dentro do Windows.
+
+Linux pode ser chamado de sistema operacional, no entanto, ele é mais do que um sistema operacional.
+
+Kernel é o que consegue entender o hardware do computador e fazer ele funcionar.
+Linux é um kernel.
+
+Mas enfim, como posso explicar o que é um linux?
+Linux é uma tecnologia?
+
+Wsl 2
+Disponível desde 2019.
+
+Diferença entre WSL2 e 1. 
+VM GERENCIADA, KERNEL do LINUX COMPLETO e COMPATIBILIDADE TOTAL COM A CHAMADA do SO.
+
+Comandos básicos do Linux
+
+whoami - para saber o usuário logado no momento
+
+~ $ : significa que estamos rodando o sistema no modo de usuário normal
+# : significa que estamos rodando o sistema no modo de usuário root
+
+clear - limpar tudo na tela (control l)
+
+ls - listar tudo que está dentro do diretório
+ls -l - mostra a estrutura de permissões
+ls -A: mostra os arquivos ocultos
+cd - acessar pasta ( cd /home) (cd .. - retorna ao diretório anterior)
+
+mkdir - criar diretório (mkdir ‘dioniluxcursodeterminal’)
+rmdir ( remover diretório) rmdir ‘dioniluxcursodeterminal’)
+
+pwd - dizer onde você está
+touch - criar arquivo
+
+rm -r - apagar pasta completa
+
+sudo apt update - Atualizar lista de repositório do sistema
+
+man - manual do comando ( man apt) …
+
+list - listar pacotes baseados em algum nome ( apt list inkscape)
+
+search - pesquisar nas descrições dos pacotes
+
+sudo apt remove ( sudo apt remove scribus) - removendo o scribus
