@@ -1,0 +1,26 @@
+Git
+
+O git é um software para rastrear todas alterações em arquivos de um projeto, especialmente código fonte
+
+Seus objetivos incluem velocidade, integridade de dados e suporte para fluxos de trabalho não lineares distribuídos.
+
+Github
+
+É um provedor de hospedagem na internet para desenvolvimento de software e controle de versão usando GIT
+
+Repositório
+
+Repositório é um diretório chamado .git dentro do seu projeto.
+
+Commit
+
+Commit é um marco histórico no projeto.
+
+Modified: arquivos alterados.
+Staging: arquivos prontos para serem enviados
+Committed: arquivos enviados “committed”
+
+Criar commit:  git commit -m “nome do commit”
+
+				aulas 1 - 6
+
