@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>Exercício #01</h1>
+    </div>
+
+    <div class="box">
+        <p>Leia o valor de um Input e mostre em um alert</p>
+        <input type="text" id="num" placeholder="Digite um valor"> <br> <br>
+        <button onclick="go()">Enviar</button>
+    </div>
+
+</body>
+<script>
+
+    function go(){
+        var valueInput = document.getElementById('num').value;
+        alert(valueInput);
+    }
+
+</script>
+</html>
