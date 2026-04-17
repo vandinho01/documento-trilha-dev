@@ -22,5 +22,37 @@ Committed: arquivos enviados “committed”
 
 Criar commit:  git commit -m “nome do commit”
 
-				aulas 1 - 6
+git log –oneline: verificar as logs
 
+
+GIT CHECKOUT - Retornar para uma branch específica (é possível voltar para branch antiga e depois para branch futura).
+
+GIT REVERT - Reverter algo feito na branch.
+git revert (id do commit).
+
+GIT RESET - git reset (id do commit) ( –hard, vai excluir totalmente).
+
+git branch - consigo verificar as branchs disponíveis e em qual delas estou no momento.
+
+git branch -d nome_do_arquivo - excluir branch.
+Se a exclusão retornar algum erro usar o -D.
+Fundir branch
+
+acessar git de destino (git checkout main) : usando a main como destino
+git merge nome_da_branch. ( git branch mercado pago).
+
+Clonar projeto do GITHUB
+
+git clone nome_do_projeto.git
+
+PULL REQUEST.
+
+Solicitação para fazer a fusão da branch para a main.
+
+FORK
+
+ Fazer uma cópia de um projeto open source e contribuir nele.
+
+Usar o clone para copiar o projeto e posteriormente dar o push e marge. mudando diretamente o projeto.
+
+O dono do projeto, pode ou não aceitar o ajuste pelo pull request.
