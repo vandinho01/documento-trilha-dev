@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>Exercício #04</h1>
+    </div>
+
+    <div class="box">
+        <p>Leia 2 números. Efetue as 4 operações matemáticas e mostre os resultados.</p>
+        <input type="number" id="value1" class="num" placeholder="Digite um valor"> <br> <br>
+        <input type="number" id="value2" class="num" placeholder="Digite um valor"> <br> <br>
+        <input type="radio" id="adicao" name="operation" value="adicao">
+        <label for="adicao"> Adição</label> <br> <br>
+        <input type="radio" id="subtracao" name="operation" value="subtracao">
+        <label for="subtracao"> Subtração</label> <br> <br>
+        <input type="radio" id="multiplicacao" name="operation" value="multiplicacao">
+        <label for="multiplicacao"> Multiplicação</label> <br> <br>
+        <input type="radio" id="divisao" name="operation" value="divisao">
+        <label for="divisao"> Divisão</label> <br> <br>
+        <button onclick="calculation()">Enviar</button>
+    </div>
+
+</body>
+
+<script>
+    function calculation(){
+        var a = parseInt(document.getElementById('value1').value);
+        var b = parseInt(document.getElementById('value2').value);
+        var selectOperation = document.querySelector('input[name="operation"]:checked').value;
+        var nameOperation,calculo;
+
+        if(selectOperation == "adicao"){
+            nameOperation = 'Adição';
+            calculo = a + b;
+        }
+
+        else if(selectOperation == "subtracao"){
+            nameOperation = 'Subtração';
+            calculo = a - b;
+        }
+
+        else if(selectOperation == "multiplicacao"){
+            nameOperation = 'Multiplicação';
+            calculo = a * b;
+        }
+
+         else {
+            nameOperation = 'Divisão';
+            calculo = a / b;
+        }
+
+        alert(`${nameOperation} : ${calculo}`)
+
+        
+        
+
+    }
+</script>
+</html>

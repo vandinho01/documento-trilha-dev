@@ -21,14 +21,7 @@ body{
     color: white;
 }
 
-input{
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    font-size: 15px;
-    width: 50%;
-}
+
 
 button{
     padding: 10px;
@@ -44,4 +37,13 @@ button{
 
 button:hover{
     background-color: cornflowerblue;
+}
+
+.num{
+     padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    
 }
