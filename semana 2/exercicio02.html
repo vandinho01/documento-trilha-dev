@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>Exercício #02</h1>
+    </div>
+
+    <div class="box">
+        <p>Leia valores A e B. Trocar os valores entre as duas variáveis, a variável A passa a possuir o valor da variável B e a variável B passa a possuir o valor da variável A.</p>
+        <input type="text" id="numA" placeholder="Digite um valor A"> <br> <br>
+        <input type="text" id="numB" placeholder="Digite um valor B"> <br> <br>
+        <button onclick="go()">Enviar</button>
+    </div>
+
+</body>
+<script>
+    function go(){
+        var a = document.getElementById('numA').value;
+        var b = document.getElementById('numB').value;
+        var c = b;
+        var b = a;
+        var a = c;
+        console.log(a , b)
+    }
+</script>
+</html>
