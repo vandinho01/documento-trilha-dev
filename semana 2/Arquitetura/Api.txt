@@ -1,0 +1,14 @@
+A API é Application Programming Interface, ou em português Interface de Programação de Aplicativo.
+
+REST é uma sigla que significa Representational State Transfer, ou em português Transferência de Estado Representacional. 
+Isso é uma abstração da arquitetura web, mas simplificadamente consiste em princípios ou regras que permitem a criação de um projeto
+com interfaces bem definidas, possibilitando a comunicação entre as aplicações.
+
+Essas operações, também conhecidas como verbos ou simplesmente de métodos HTTP, tem a função de identificar a finalidade de uma requisição. 
+Esses métodos são GET, POST, PUT, PATCH, DELETE…
+
+GET: A requisição faz um pedido de dados para a API. A API vai buscar os dados solicitados em algum banco e, geralmente, retorna em formato JSON;
+POST: Tipo de requisição utilizada para criar um recurso em uma determinada API. São chamados recursos os objetos que estão sendo tratados naquela API.
+PUT: Requisição utilizada para atualizar o recurso indicado com alguma informação.
+PATCH: Requisição feita para atualização de somente uma parte de um recurso.
+DELETE: Requisição para excluir um dado.

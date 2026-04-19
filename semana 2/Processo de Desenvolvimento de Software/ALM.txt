@@ -1,0 +1,22 @@
+ALM (gerenciamento do ciclo de vida de aplicações) é o processo que planifica e executa tudo o que está envolvido com a existência de uma aplicação. 
+No ALM há o planejamento de etapas e a utilização de diferentes ferramentas para idealizar, desenvolver, implementar, gerenciar, manter e descontinuar
+ as aplicações.
+
+ Fluxos de trabalho comuns incluem: O modelo cascata - é um processo de ALM sequencial com uma série de etapas claramente definidas. 
+ Com este modelo, os projetos não avançam para a próxima fase sem a aprovação final dos stakeholders. Os modelos em cascata 
+ funcionam bem com projetos que têm etapas mais previsíveis e menos variáveis.
+ Desenvolvimento ágil: O desenvolvimento ágil adota uma abordagem iterativa que permite etapas incrementais menores, conhecidas como sprints, 
+ e a priorização do feedback de todos os membros da equipe. Cada sprint se concentra em alcançar um aspecto específico do projeto geral 
+ com feedback constante das equipes relevantes. 
+
+ As cinco etapas do gerenciamento do ciclo de vida de aplicações
+ s cinco etapas de um ALM (application lifecycle management) são:
+
+ 1 Gerenciamento de requisitos
+ 2 Desenvolvimento
+ 3 Testes e garantia de qualidade
+ 4 Implementação
+ 5 Manutenção e otimização contínuas
+
+ *Shape Up é um novo método para desenvolvimento de software que está sendo proposto pela Basecamp, a empresa por 
+ trás do software de gerenciamento de projetos de mesmo nome*
