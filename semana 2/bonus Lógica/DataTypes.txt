@@ -1,0 +1,20 @@
+ - Data Types
+
+ - Number {
+    infinity:
+    Nan:
+    }
+
+ - String;
+
+ - boolean;
+
+ - null;
+
+ - undefined;
+
+ - object`{
+    array:
+ }
+
+ - function
