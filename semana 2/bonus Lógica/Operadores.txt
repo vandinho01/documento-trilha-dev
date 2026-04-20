@@ -17,5 +17,24 @@ Precedencia
 
 - Atribuição
 - Relacionais
+
+>
+<
+>=
+<=
+==
+!=
+
 - Lógicos
+
+! negação
+&& conjunção
+|| disjunção
+
 - Ternário
+
+?
+:
+
+var media = 5
+media > 5?'APROVADO':REPROVADO
