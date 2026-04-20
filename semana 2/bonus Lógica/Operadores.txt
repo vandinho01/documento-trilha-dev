@@ -1,0 +1,21 @@
+Operadores
+
+- Aritméticos ( + ; - ; * ; / ; % / **)
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1
+5 ** 2 = 25
+
+Precedencia 
+
+()
+**
+* / % quem vier primeiro da esquerda para a direita
++ - quem vier primeiro da esquerda para a direita
+
+- Atribuição
+- Relacionais
+- Lógicos
+- Ternário
