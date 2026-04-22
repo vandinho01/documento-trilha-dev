@@ -10,3 +10,9 @@ while ( c <= 6) {
 do {
     console.log('Tudo bem?')
 } while ( c <= 6)
+
+    //--------------
+
+    for (var c = 1; c <= 5; c++){
+        console.log(c)
+    }
