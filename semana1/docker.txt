@@ -4,12 +4,30 @@ Docker é uma tecnologia de virtualização incrível, trazendo benefícios tant
 
 Explicações Docker:
 
-Contêiner: ambiente isolado e leve que pode ter seus próprios processadores, interfaces de rede, etc., mas compartilham o mesmo kernel do sistema operacional. Criado a partir de uma versão de imagem específica.
+Imagem: Ela contem os arquivos de software, as bibliotecas , o sistema de arquivos e as configurações necessárias.
+Ela é estatica 
 
-Imagem: uma imagem é basicamente um pacote executável que possui tudo o que é necessário para executar aplicativos, o que inclui um arquivo de configuração, variáveis ​​de ambiente, tempo de execução e bibliotecas.
+Container: Ele não é a "imagem do app". O container é o aplicativo rodando na prática a partir daquela imagem .
+Ele é dinamico
+
 Dockerfile: contém todas as instruções para criar uma imagem do Docker. É basicamente um arquivo de texto simples com instruções para construir uma imagem. Você também pode se referir a isso como a automação da criação de imagens do Docker.
+
 Tag: versão de uma imagem. Cada imagem terá uma tag.
+
 Docker Hub: repositório de imagens onde podemos encontrar diferentes tipos de imagens.
+
 Docker Engine: o sistema que permite criar e executar contêineres.
+
 Docker Registry: o registro do Docker é uma solução que armazena suas imagens. Este serviço é responsável por hospedar e distribuir as imagens. O registro padrão é o Docker Hub.
+
 Docker CLI: interface de linha de comando (CLI) que permite à pessoa executar ações interagindo com Docker. É executado em uma arquitetura cliente-servidor, o que significa que clientes podem se conectar a hosts do Docker localmente ou remotamente. Tanto cliente quanto host do Docker (Daemon) podem ser executados no mesmo host, ou podem ser executados em hosts diferentes e se comunicar por meio de soquetes ou de uma API RESTful.
+
+docker run --name meu_wordpress -p 8080:80 -d wordpress (criar imagem no docker)
+
+docker images ( verificar imagens )
+
+docker ps ( mostrar container em ação )
+
+docker ps -a ( mostra todos )
+
+docker start ,stop, restart
